@@ -1,5 +1,5 @@
 # stepik_auto_tests_course_selenium
 
-https://stepik.org/lesson/187065
+Это [ссылка](https://stepik.org/lesson/187065 "Автоматизация тестирования с помощью Selenium и Python") с тайтлом.
 
-Репозиторий с заданиями по курсу "Автоматизация тестирования с помощью Selenium и Python"
+>Репозиторий с заданиями по курсу "Автоматизация тестирования с помощью Selenium и Python"
