@@ -1,6 +1,6 @@
 #
 # Glebezdin Artem
-# lesson 1.6_8
+# lesson 1.6_11
 # v1.0
 #
 
