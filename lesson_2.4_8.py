@@ -19,7 +19,7 @@ try:
     browser.get(link)
 
     # функция высчитывающая значение для Х.
-    def answer(x):
+    def ans_1(x):
         return str(math.log(abs(12*math.sin(int(x)))))
 
     # ожидаем когда цена достигнет 100$ и нажимаем кнопку
@@ -33,7 +33,7 @@ try:
     # Забираем значение Х
     elem_x = browser.find_element(By.CSS_SELECTOR, "#input_value")
     x = elem_x.text
-    y = answer(x)
+    y = ans_1(x)
 
     # Вводим ответ в поле
     input_1 = browser.find_element(By.CSS_SELECTOR, "#answer")
@@ -42,6 +42,14 @@ try:
     # Нажимаем на кнопку Submit
     button2 = browser.find_element(By.ID, "solve")
     button2.click()
+
+    # забираем значение в мадальном окне и печатаем ответ в консоль
+    alert = browser.switch_to.alert
+    al1 = alert.text
+    alert.accept()
+    al2 = al1[79:97]
+    print("Ответ: " + al2)
+
 
 finally:
     # успеваем скопировать код за 20 секунд
