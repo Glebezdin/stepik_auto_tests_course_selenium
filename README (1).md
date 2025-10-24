@@ -119,14 +119,13 @@
 - `sensor` — NFC-библиотека  
 
 ## Установка и запуск проекта
-1. Запусти Android Studio
-2. Выбери пункт "Open"
-3. Найди и выбери папку проекта
-4. Дождитесь окончания индексации Gradle Sync
-!Если Gradle не подгрузил зависимости автоматически — нажми File → Sync Project with Gradle Files
+1. Запустить Android Studio
+2. Открыть директорию проекта
+3. Дождаться окончания индексации Gradle Sync
+!Если Gradle не подгрузил зависимости автоматически — нажать File → Sync Project with Gradle Files
 
 ##  Создание apk-файла
-1. Выберите пункт "Build" -> "Generate Signed App Bundle or APK" -> "Apk"
-2. Нажмите на кнопку "Choose existing.." и выберите файл ScolioNFCKeystore
-3. В зависимоти от создаваемого приложения откройте файл PatientKeyStore.properties или DoctorKeystore.properties и заполните поля соответсвтувющие поля из файла и нажмите  "Next"
-4. Выберите "release" -> "Create" 
+1. Выбрать пункт "Build" -> "Generate Signed App Bundle or APK" -> "Apk"
+2. Нажать на кнопку "Choose existing.." и выбрать файл ScolioNFCKeystore
+3. В зависимоти от создаваемого приложения открыть файл PatientKeyStore.properties или DoctorKeystore.properties и заполнить соответсвтувющие поля из файла. Нажать "Next"
+4. Выбрать "release" -> "Create" 
